@@ -1,8 +1,11 @@
+import Home from "./components/pages/homepage/Home";
+import TopBar from "./components/topbar/TopBar";
 
 function App() {
   return (
     <div>
-      Dish Diary Recipe Unknown
+      <TopBar/>
+      <Home />
     </div>
   );
 }

@@ -1,0 +1,34 @@
+.listing-item{
+    background-color: aqua;
+    width: 380px;
+    margin: 0px 15px 45px 15px;
+}
+.listing-img{
+    width: 100%;
+    height: 270px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.listing-details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.listing-categories{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    background-color: aquamarine;
+}
+
+
+.listing-description{
+    color: aquamarine;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    line-clamp: 5;
+    -webkit-box-orient: vertical;
+    width: 100%;
+}
