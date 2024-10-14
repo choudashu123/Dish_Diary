@@ -1,0 +1,41 @@
+
+.upload-icon{
+    width:34px;
+    height: 34px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 1px solid var(--primary-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: right;
+}
+.create-listing-text{
+    height: 30px;
+    width: 50vw;
+    border: none;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 15px;
+}
+.create-listing{
+    padding: 15px;
+    margin: 30px;
+    top: 40%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.create-listing-button{
+    width: 50vw;
+    background-color: var(--primary-color);
+    height: 30px;
+    color: aliceblue;
+    font-weight: bold;
+
+}
+.create-listing-description{
+    height: 60px;
+}

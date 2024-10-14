@@ -1,6 +1,7 @@
 .listing-item{
-    background-color: aqua;
+    background-color: #ff8000	;
     width: 380px;
+    padding: 5px;
     margin: 0px 15px 45px 15px;
 }
 .listing-img{
@@ -10,20 +11,24 @@
     border-radius: 5px;
 }
 .listing-details{
+    padding: 5px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 .listing-categories{
+    color: aliceblue;
+    background-color: #ff8000;
     display: flex;
     width: 100%;
     justify-content: space-around;
-    background-color: aquamarine;
 }
 
 
 .listing-description{
-    color: aquamarine;
+    background-color: #ff8000;
+    padding: 2px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     overflow: hidden;
     text-overflow: ellipsis;
     display: -webkit-box;

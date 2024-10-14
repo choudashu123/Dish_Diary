@@ -1,0 +1,38 @@
+.listing-detail-img{
+    width: 100%;
+    height: 320px;
+    object-fit: contain;
+    border-radius: 3px;
+}
+.listing-detail-title{
+    text-align: center;
+    font-size: 32px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.listing-detail-action{
+    float: right;
+    font-size: 30px;
+}
+.listing-detail-action-icon{
+    font-size: 25px;
+    margin-left: 12px;
+    cursor: pointer;
+}
+.listing-detail-meta-info{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.listing-detail-description::first-letter{
+    margin-left: 15px;
+    font-size: 26px;
+    font-weight: 550;
+    color: var(--primary-color);
+}
+.listing-detail-description{
+    margin-left: 15px;
+    margin-right: 15px;
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+}

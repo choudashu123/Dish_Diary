@@ -1,6 +1,7 @@
 import React from 'react'
 import "./TopBar.css"
 import profileImage from "../../res/profile.jpg"
+import { NavLink } from 'react-router-dom'
 
 function TopBar() {
   return (
@@ -11,9 +12,9 @@ function TopBar() {
       </div>
       <div className='topbar-center'>
         <ul className='topbar-list'>
-          <li className='topbar-list-item'>Home</li>
+          <li className='topbar-list-item' ><NavLink to="/">Home</NavLink></li>
           <li className='topbar-list-item'>All Recipes</li>
-          <li className='topbar-list-item'>Create Your own Dish</li>
+          <li className='topbar-list-item'><NavLink to="/create">Create Your own Dish</NavLink></li>
           <li className='topbar-list-item'>About Us</li>
           
         </ul>
